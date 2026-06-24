@@ -406,3 +406,157 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+
+/* =========================
+   Tablet Devices
+========================= */
+
+@media (max-width: 992px){
+
+    .container{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .container a{
+        margin: 10px 15px;
+        display: inline-block;
+    }
+
+    .hero h1{
+        font-size: 40px;
+    }
+
+    .hero p{
+        font-size: 20px;
+    }
+
+    .shake-container,
+    .drink-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .momos-item{
+        width: 45%;
+        flex: 0 0 45%;
+    }
+}
+
+/* =========================
+   Mobile Devices
+========================= */
+
+@media (max-width: 768px){
+
+    .logo{
+        font-size: 28px;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .container div{
+        margin-top: 15px;
+    }
+
+    .container a{
+        display: block;
+        margin: 12px 0;
+        font-size: 18px;
+    }
+
+    .hero{
+        padding: 60px 15px;
+    }
+
+    .hero h1{
+        font-size: 32px;
+    }
+
+    .hero p{
+        font-size: 18px;
+    }
+
+    .pizza-section,
+    .burger-section,
+    .roll-section,
+    .side-section,
+    .shake-section,
+    .drink-section{
+        margin: 15px;
+        padding: 15px;
+    }
+
+    .pizza-item,
+    .burger-item,
+    .roll-item{
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .pizza-image,
+    .burger-image,
+    .roll-image{
+        height: auto;
+    }
+
+    .momos-item,
+    .side-item{
+        width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .shake-container,
+    .drink-container{
+        grid-template-columns: 1fr;
+    }
+
+    .shake-item,
+    .drink-item{
+        width: auto;
+    }
+
+    .momos-heading,
+    .side-heading,
+    .shake-heading,
+    .drink-heading{
+        font-size: 28px;
+    }
+}
+
+/* =========================
+   Small Mobile Devices
+========================= */
+
+@media (max-width: 480px){
+
+    .logo{
+        font-size: 24px;
+    }
+
+    .hero h1{
+        font-size: 26px;
+    }
+
+    .hero p{
+        font-size: 16px;
+    }
+
+    .hero-btn{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .pizza-section h2,
+    .burger-section h2,
+    .roll-section h2,
+    .momos-heading,
+    .side-heading,
+    .shake-heading,
+    .drink-heading{
+        font-size: 24px;
+    }
+}
