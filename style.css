@@ -9,7 +9,7 @@ html {
 body {
     margin: 0;
     font-family: 'Times New Roman, Times, Arial, sans-serif';
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 header {
