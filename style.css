@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -5,6 +9,7 @@ html {
 body {
     margin: 0;
     font-family: 'Times New Roman, Times, Arial, sans-serif';
+    overflow: hidden;
 }
 
 header {
@@ -455,16 +460,20 @@ footer {
 
     .container{
         flex-direction: column;
+        text-align: center;
     }
 
-    .container div{
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
         margin-top: 15px;
     }
 
-    .container a{
-        display: block;
-        margin: 12px 0;
-        font-size: 18px;
+    .nav-links {
+        margin: 5px;
+        font-size: 16px;
     }
 
     .hero{
