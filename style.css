@@ -455,12 +455,13 @@ footer {
 @media (max-width: 768px){
 
     .logo{
-        font-size: 28px;
+        font-size: 20px;
     }
 
     .container{
-        flex-direction: column;
-        text-align: center;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .nav-links {
@@ -468,12 +469,15 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
         gap: 10px;
-        margin-top: 15px;
     }
 
-    .nav-links {
-        margin: 5px;
-        font-size: 16px;
+    .nav-links a {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .login {
+        padding: 6px 12px;
     }
 
     .hero{
